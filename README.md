@@ -2,8 +2,6 @@
 ------------
 dwm is an extremely fast, small, and dynamic window manager for X.
 
-![screenshot](./preview.png)
-
 ## Requirements
 ------------
 In order to build dwm you need the Xlib header files.
@@ -13,7 +11,6 @@ In order to build dwm you need the Xlib header files.
 - [alwayscenter](https://dwm.suckless.org/patches/alwayscenter)
 - [fullgaps](https://dwm.suckless.org/patches/fullgaps)
 - [movestack](https://dwm.suckless.org/patches/movestack)
-- [sticky](https://dwm.suckless.org/patches/sticky)
 - [systray](https://dwm.suckless.org/patches/systray)
 
 ## Installation
