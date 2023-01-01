@@ -12,6 +12,7 @@ In order to build dwm you need the Xlib header files.
 ------------
 - [alwayscenter](https://dwm.suckless.org/patches/alwayscenter)
 - [fullgaps](https://dwm.suckless.org/patches/fullgaps)
+- [movestack](https://dwm.suckless.org/patches/movestack)
 - [sticky](https://dwm.suckless.org/patches/sticky)
 - [systray](https://dwm.suckless.org/patches/systray)
 
