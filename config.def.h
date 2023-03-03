@@ -78,8 +78,8 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
-  { MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
-  { MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
+    { MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
+    { MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
@@ -94,9 +94,9 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
-  { MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
-  { MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
-  { MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+    { MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
+    { MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
+    { MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
@@ -107,10 +107,10 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-  { 0,                            XK_Print,                  spawn, SHCMD("flameshot gui") },
-  { 0,                            XF86XK_AudioRaiseVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%") },
-  { 0,                            XF86XK_AudioLowerVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },
-  { 0,                            XF86XK_AudioMute,          spawn, SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle")},
+    { 0,                            XK_Print,                  spawn, SHCMD("flameshot gui") },
+    { 0,                            XF86XK_AudioRaiseVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%") },
+    { 0,                            XF86XK_AudioLowerVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },
+    { 0,                            XF86XK_AudioMute,          spawn, SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle")},
 };
 
 /* button definitions */
