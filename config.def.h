@@ -100,6 +100,7 @@ static const Key keys[] = {
 	{ 0,                            XF86XK_AudioRaiseVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ +5%") },
 	{ 0,                            XF86XK_AudioLowerVolume,   spawn, SHCMD("pactl set-sink-volume @DEFAULT_SINK@ -5%") },
 	{ 0,                            XF86XK_AudioMute,          spawn, SHCMD("pactl set-sink-mute @DEFAULT_SINK@ toggle") },
+	{ 0,                            XK_Print,                  spawn, SHCMD("flameshot gui") },
 };
 
 /* button definitions */
